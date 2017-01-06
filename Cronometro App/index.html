@@ -26,6 +26,9 @@
 
     <!-- Theme CSS -->
     <link href="css/new-age.min.css" rel="stylesheet">
+    <!-- organizador tablesort https://github.com/tristen/tablesort -->
+    <link href='css/tablesort.css' rel='stylesheet'>
+    <!-- <link href='css/style.css' rel='stylesheet'> -->
 <style>
 *{
 	margin: 0;
@@ -161,7 +164,7 @@ color: #000;
                           </tr>
                         </thead>
                         <tbody style="color:black">
-                          
+
                       </tbody>
                       </table>
                 </div>
@@ -257,6 +260,17 @@ color: #000;
     <script src="js/ordenar.js"></script>
     <script src="js/new-age.min.js"></script>
 
+    <!-- organizador tablesort https://github.com/tristen/tablesort -->
+    <script src='js/sorts/tablesort.js'></script>
+
+    <!-- Include sort types you need -->
+    <script src='js/sorts/tablesort.number.js'></script>
+    <script src='js/sorts/tablesort.date.js'></script>
+    <!-- ativa o table sort -->
+    <script>
+      new Tablesort(document.getElementById('products-table'));
+    </script>
+    <!-- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
 
 
 
