@@ -1,6 +1,6 @@
 (function($) {
 AddTableRow = function() {
-var fire = new Firebase(https://cronometroiot.firebaseio.com/analise/");
+//var fire = new Firebase(https://cronometroiot.firebaseio.com/analise/");
 var nomeRobo = $("#nomeRobo").val();
 var Horas= document.getElementById("Horas").innerHTML
 var Minutos= document.getElementById("Minutos").innerHTML
