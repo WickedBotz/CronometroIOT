@@ -7,10 +7,10 @@ var Minutos= document.getElementById("Minutos").innerHTML
 var Segundos= document.getElementById("Segundos").innerHTML
 var Centesimas = document.getElementById("Centesimas").innerHTML
 
-fire.set({
-usuario : nomeRobo,
-city : Horas
-});
+//fire.set({
+//usuario : nomeRobo,
+//city : Horas
+//});
 
 console.log(nomeRobo);
 var newRow = $("<tr>");
