@@ -1,6 +1,7 @@
 var ref = new Firebase("https://cronometroiot.firebaseio.com/analises");
 
 function carregar(){
+  $("#products-table tr").remove(); 
   (function($) {
     // window.onload = function AddTableRow() {
       ref.once("value", function(snapshot) {
